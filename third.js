@@ -80,4 +80,5 @@ function testStringObject() {
         console.log("Test failed");
     }
 }
+
 testStringObject();
