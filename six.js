@@ -38,6 +38,7 @@ function testCityTemperatures() {
         }
     };
 
+
     // Test cityTemperaturesToString method
     const expectedStringOutput = "Київ: 9;\nМиколаїв: 9;\nОдеса: 10;\nЮжноукраїнськ: 12;\n";
     const actualStringOutput = cityTemperatures.cityTemperaturesToString();

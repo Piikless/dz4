@@ -9,6 +9,7 @@ function calculateAverageGrade(grades) {
     return sum / grades.length;
 }
 
+
 function addStudent(student) {
     const { name, surname, course, faculty, security, ...grades } = student;
 
